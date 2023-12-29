@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.Utility.MyReports"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="mySql.Test_StoreProcedure_Customer"/>
+      <class name="mySql.Get_Student_table"/>
+      <class name="mySql.Customers_Table"/>
+      <class name="mySql.SProcedure_Test"/>
+      <class name="mySql.NameColumnt_Test"/>
+      <class name="mySql.Student"/>
+      <class name="mySql.Find_husain_Student"/>
+      <class name="mySql.Test_StoreP_WithParameter"/>
+      <class name="mySql.Get_customer_Test"/>
+      <class name="mySql.Get_shipped_order_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
